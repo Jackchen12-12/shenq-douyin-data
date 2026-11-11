@@ -15,6 +15,37 @@
 > - 轻量：零第三方依赖，Node.js 内置模块直接跑，无需部署服务
 > - 友好：stdout 纯 JSON、日志走 stderr，AI 可直接解析；结果自动落盘便于二次分析
 
+---
+
+## 🧩 在 Codex 里安装这个技能（推荐：让 AI 助手直接调用）
+
+> 如果你或你的客户用的是 Codex、Claude Code 这类 AI 助手，把技能装进去后，直接说人话就能调数据，不用自己敲命令。
+
+**安装**（二选一）：
+
+1. **克隆仓库**并放到技能目录：
+   ```bash
+   git clone https://github.com/Jackchen12-12/shenq.git
+   cp -R shenq ~/.codex/skills/shenq
+   ```
+2. 或直接下载 ZIP 解压后，把 `shenq` 目录放到 `~/.codex/skills/` 下。
+
+**配置凭证**：
+
+```bash
+export SHENQAI_API_TOKEN=你的TOKEN
+```
+
+**使用**：在 Codex 里直接说，例如：
+
+- 「用 shenq 搜一下“AI 教程”」
+- 「抓这个抖音博主的作品：<链接>」
+- 「查一下今天的抖音热榜」
+
+> Token 获取入口：[https://shenqai.cn/app.html](https://shenqai.cn/app.html)（自助开通，秒到账）
+
+---
+
 ## ✅ 我能帮你解决什么（10 秒判断）
 
 | 你是谁     | 你要做的事                       | 用哪个功能                  |
