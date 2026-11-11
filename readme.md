@@ -25,10 +25,10 @@
 
 1. **克隆仓库**并放到技能目录：
    ```bash
-   git clone https://github.com/Jackchen12-12/shenq.git
+   git clone https://github.com/Jackchen12-12/shenq-douyin-data.git shenq
    cp -R shenq ~/.codex/skills/shenq
    ```
-2. 或直接下载 ZIP 解压后，把 `shenq` 目录放到 `~/.codex/skills/` 下。
+2. 或直接下载 ZIP 解压后，把解压出的目录放到 `~/.codex/skills/shenq` 下。
 
 **配置凭证**：
 
